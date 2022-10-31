@@ -99,7 +99,7 @@ vers="%MAJOR_VERSION%"
 serialno="%VW_SERIAL_NO%"
 vwipathroot="/private/tmp/vw"
 # Install Vectorworks
-"${vwipathroot}/Vectorworks ${vers} Installer.app/Contents/Resources/installer/Install Vectorworks${vers}.app/Contents/MacOS/installbuilder.sh" --mode unattended --unattendedmodeui none --Serial "${serialno}" --installdir "/Applications/Vectorworks ${vers}"
+"${vwipathroot}/Vectorworks ${vers} Installer.app/Contents/Resources/installer/Install Vectorworks${vers}.app/Contents/MacOS/installbuilder.sh" --mode unattended --unattendedmodeui none --Serial "${serialno}" --LDFChoice licenseID --sysUsername infotech --installdir "/Applications/Vectorworks ${vers}"
 # Check to verify app is in expected location; delete installer if app present
 if [ -e "/Applications/Vectorworks ${vers}/Vectorworks ${vers}.app" ]
 then
