@@ -225,7 +225,7 @@ fi
 							<key>path</key>
 							<string>private/tmp/vw/</string>
 							<key>user</key>
-							<string>root</string>
+							<string>infotech</string>
 						</dict>
 						<dict>
 							<key>group</key>
@@ -235,7 +235,7 @@ fi
 							<key>path</key>
 							<string>usr/local/outset/files/LoginDialog.xml</string>
 							<key>user</key>
-							<string>root</string>
+							<string>infotech</string>
 						</dict>
 						<dict>
 							<key>group</key>
@@ -245,7 +245,7 @@ fi
 							<key>path</key>
 							<string>usr/local/outset/login-once/vw%MAJOR_VERSION%_server_for_outset.sh</string>
 							<key>user</key>
-							<string>root</string>
+							<string>infotech</string>
 						</dict>
 					</array>
 					<key>id</key>
